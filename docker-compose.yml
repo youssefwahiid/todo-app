@@ -1,0 +1,12 @@
+services:
+  app:
+    image: to-dolist:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - SQLITE_DB_LOCATION=/etc/todos/todo.db
+    volumes:
+      - todo-data:/etc/todos
+
+volumes:
+  todo-data:
