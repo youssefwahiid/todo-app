@@ -24,4 +24,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: youssefwahiid/todo-app:latest
+          tags: youssefwaheeds/todo-app:latest
